@@ -88,3 +88,38 @@ a=input("enter first number: ")
 b=input("enter second number: ")
 c=input("enter third number: ")
 print(f"average of the number : {(int(a) + int(b)+int(c)) / 3}")
+
+language="python"
+print(language[-5])
+
+print(language[2:2])
+print(language[-3:6])
+print(language[:3])
+
+print("Utkarsh"[::-1])
+
+# Excercise 3
+name=input("enter your name: ")
+print(f"reverse of your name is {name[::-1]}")
+
+name="Utkarsh vyas"
+length=len(name)
+print(length)
+print(name.lower())
+print(name.upper())
+print(name.title())
+print(name.count("a"))
+
+# Excercise 4
+name.char=input("enter comma seperated name and character: ").split()
+print(f"length of your name is {len(name)}")
+print(f"character count : {name.lower().count(char.lower())}")
+
+name="   Utka      rsh"
+dots="..........."
+print(name+dots)
+print(name.lstrip()+dots)
+print(name.rstrip()+dots)
+print(name.strip()+dots)
+print(name.replace(" ","")+dots)
+
