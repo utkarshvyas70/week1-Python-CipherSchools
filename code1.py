@@ -162,4 +162,101 @@ print(name.center(1,"*"))
 age=input("enter your age: ")
 age=int(age)
 if age>=14:
+    print("line a")
     print("you are above 14")
+else:
+    print("sorry you can't play")
+
+x=18
+if x>18:
+    pass
+
+# Excercise 5
+winning_number=4
+guess=int(input())
+if winning_number==guess:
+    print("you Win !!!!")
+elif winning_number<guess:
+    print("too high")
+elif winning_number>guess:
+    print("too low")
+
+name='abc'
+age=19
+if name=='abcd' or age==23:
+    print("condition True")
+else:
+    [print("condition False")]
+
+# Excercise 6
+name=input("ypur name: ")
+age=int(input("ypur age: "))
+if age>=10 and (name[0]=='a' or name[0]=='A'):
+    print("You can watch coco")
+else:
+    print("you cannot")
+
+age=int(input("age: "))
+if 0<age<=3:
+    print("ticket price: free")
+elif 3<age<=10:
+    print("ticket price:150")
+elif 10<age<=60:
+    print("ticket price:250")
+else:
+    print("ticket price:200")
+
+
+name="Utkarsh"
+if "h" in "Utkarsh":
+    print("h is there.")
+else:
+    print("no")
+
+name=input("name: ")
+if name:
+    print(f"name is {name}")
+else:
+    print("you didn\'t type anything")
+
+i=1
+while i<=10:
+    print(f"hello world")
+    i=i+1
+
+i=1
+while i<=10:
+    total=total+i
+    i=i+1
+print(total)
+
+
+#Excercise 7
+n=input("number: ")
+n=int(n)
+total=0
+i=1
+while i <=n:
+    total +=i
+    i+=1
+print(total)
+
+
+#Excercise 8
+num=input("number: ")
+total=0
+i=0
+while i<len(num):
+    total+=int(num[i])
+    i+=1
+print(total)
+
+#Excercise 9
+name=input("name: ")
+temp_var=""
+i=0
+while i<len(name):
+    if name[i] not in temp_var:
+        temp_var+=name[i]
+    print(f"{name[i]} : {name.count(name[i])}")
+    i+=1
