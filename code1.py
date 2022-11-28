@@ -123,3 +123,43 @@ print(name.rstrip()+dots)
 print(name.strip()+dots)
 print(name.replace(" ","")+dots)
 
+string="she is beautiful and she is good dancer"
+print(string.find("is","was",2))
+is_pos1=string.find("is")
+is_pos2=string.find("is",is_pos1+1)
+print(is_pos2)
+
+name=input("enter your name: ")
+print(name.center(len(name)+8, "*"))
+
+string="string"
+new_string=string.replace('t','T')
+print(new_string)
+
+name="utkarsh"
+name+="it"
+print(name)
+age=23
+age -=2
+print(age)
+
+name="utkarsh"
+print(name[-1])
+print(name[-1:0:-1])
+
+
+age=int(input("enter your age: "))
+user_name,age=input("enter your name and age: ").split(",")
+print(user_name)
+print(age)
+print(len(name))
+print(name.title())
+r_pos=(name.title())
+r_pos2=name.find("r",r_pos+1)
+print(r_pos2)
+print(name.center(1,"*"))
+
+age=input("enter your age: ")
+age=int(age)
+if age>=14:
+    print("you are above 14")
