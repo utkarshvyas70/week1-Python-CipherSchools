@@ -14,6 +14,8 @@ print("line B \\t line B")
 print("this is 4 backslash \\\\\\\\")
 print(" \\\" \\\' ")
 
+# Excercise 1
+
 print("this is \\\\ double backslash")
 print("these are /\\/\\/\\/\\ mountains")
 print("he is\tawesome")
@@ -68,3 +70,21 @@ print("hello "+ name+"your age is "+age)
 x=y=z=1
 print(x+y+z)
 
+name,age=input("enter your name and age ").split(",")
+print(name)
+print(age)
+
+name="Utkarsh"
+age=24
+print("hello" + name + "yoir age is "+ str(age))
+
+print("hello {name} your age is {age}".format(name,age+2))
+
+print(f"hello {name} your age is {age +2}")
+
+# Excercise 2
+
+a=input("enter first number: ")
+b=input("enter second number: ")
+c=input("enter third number: ")
+print(f"average of the number : {(int(a) + int(b)+int(c)) / 3}")
