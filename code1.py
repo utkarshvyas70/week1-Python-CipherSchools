@@ -260,3 +260,18 @@ while i<len(name):
         temp_var+=name[i]
     print(f"{name[i]} : {name.count(name[i])}")
     i+=1
+
+
+i=0
+while i<=10:
+    print("hello world")
+    i+=1
+
+while True:
+    print("hello world")
+
+for i in rnage(10):
+    print(f"hello world+{i}")
+for i in rnage(1,10):
+    print(f"hello world+{i}")
+    print("this is line \n ")
